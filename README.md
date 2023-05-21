@@ -39,7 +39,7 @@ Data Transfer Objects (DTOs) are used for sending data over the network and can 
 + Async/Await pattern is used for non-blocking database operations.
 
 ## Potential Limitations and Areas for Improvement
-+ Error Handling: The current error handling approach in the application involves returning a generic error message for every exception. However, the specifics of an exception can be quite varied. Therefore, a more comprehensive and context-aware error handling mechanism might be more beneficial for both developers and users.
++ Error Handling: The current error handling approach in the application in places involves returning a generic error message for every exception. However, the specifics of an exception can be quite varied. Therefore, a more comprehensive and context-aware error handling mechanism might be more beneficial for both developers and users.
 
 + Logging: The application currently writes exceptions to the console. While this is useful during development, in a production environment it's better to log to a more permanent and easily accessible location, such as a file or a logging service. A robust logging system can help you troubleshoot and understand application behavior.
 
@@ -47,7 +47,7 @@ Data Transfer Objects (DTOs) are used for sending data over the network and can 
 
 + Testing: As of now, there is no mention of unit tests or integration tests in the application. Automated testing is a crucial aspect of maintaining code quality and preventing bugs as the application grows.
 
-+ Authentication and Authorization: The current version of the API does not seem to have any authentication or authorization mechanisms in place. In a real-world application, you'd typically want to restrict access to certain endpoints to protect sensitive information.
++ Authentication and Authorization: The current version of the API does not have any authentication or authorization mechanisms in place. In a real-world application, you'd typically want to restrict access to certain endpoints to protect sensitive information.
 
 ## Conclusion
 TimeReportAPI is a well-structured project that demonstrates a good understanding of .NET Core web API development, Entity Framework Core, and clean code principles. By continuing to build on this strong foundation, the application can be expanded to include more features and handle more complex scenarios.
